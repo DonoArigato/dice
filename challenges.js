@@ -9,6 +9,10 @@ GAME RULES:
 
 */
 "use strict";
+
+$('.popup .close').on('click', function() {
+    $(this).parent().fadeOut();
+  });
 let scores,roundScore,activePlayer,gamePlaying;
 
 newGame();

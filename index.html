@@ -4,13 +4,18 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
         <link type="text/css" rel="stylesheet" href="style.css">
         
         <title>Pig Game</title>
     </head>
 
     <body>
+           
         <div class="wrapper clearfix">
+            
             <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
                 <div class="player-score" id="score-0">43</div>
@@ -29,6 +34,7 @@
                 </div>
             </div>
             
+            
             <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
             <button class="btn-roll"><i class="ion-ios-loop"></i>Shake dice</button>
             <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
@@ -39,7 +45,28 @@
             <!-- <img src="dice-6.png" alt="Dice" class="dice" id="dice-2"> -->
 
         </div>
-        
+      
+        <div class='popup'> 
+                <span class='close'><i class="fa fa-times" aria-hidden="true"></i></span>
+            <div class="popup-wrap"> 
+               <div class="popup-header">
+                 <h2> Welcome to Shake em</h2>
+                 
+                 <h2>Rules</h2>
+                </div>
+                <div class="popup-content">
+                    <p> Roll the dice by clicking on the shake 
+                        dice button,but beware if you hit a one,
+                        will lose your score and it will be the 
+                        next player turn. Hold that score to save it 
+                        and it will switch to the next player.
+                        </p>
+
+                         <button class="popup-button">Begin Game</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="app.js"></script>
         <!-- <script src="challenges.js"></script> -->
 

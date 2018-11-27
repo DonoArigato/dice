@@ -1,7 +1,63 @@
 /**********************************************
 *** GENERAL
 **********************************************/
+.popup{
+    
+    background: rgba(82, 82, 82, .7);
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    border-radius: 8px;
 
+    width: 655px;
+    position: fixed;
+    left:27%;
+    top:25%;
+   color: rgb(226, 14, 14);
+    display: block;
+    text-align: center;
+    padding:4%;
+    
+    
+    margin:0 auto;
+  
+}
+
+.popup-wrap{
+border: 1px solid #3B5998;
+}
+
+.popup-header{
+background:dodgerblue;
+border-bottom: 1px solid #29447E;
+color: #fff;
+font-size: 14px;
+padding:14px;
+}
+.popup-header h2{
+    font-size:14px;
+}
+.popup-content{
+background:#fff;
+  font-size: 16px;
+  padding:10px;
+}
+
+.popup-button{
+    width:200px;
+    background-color: dodgerblue;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding:1%;
+    margin:12px;
+    border-radius:25px;
+    
+}
+.fa-times{
+    color:red;
+    position: absolute;
+    top: 9px;
+    right: -3px;
+}
 .final-score{
     position: absolute;
     left :50%;
